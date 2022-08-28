@@ -10,11 +10,11 @@ Console.WriteLine($"Вы ввели число: {num}. ");
 int count = 1;
 while (num > 0 && count <= num)
 {
-    Console.WriteLine($"Куб числа {count} - {Math.Pow(count, 3)}");
+    Console.WriteLine($"Куб числа {count} равен {Math.Pow(count, 3)}");
     count++;
 }
 while (num < 0 && count >= num)
 {
-    Console.WriteLine($"Куб числа {count} - {Math.Pow(count, 3)}");
+    Console.WriteLine($"Куб числа {count} равен {Math.Pow(count, 3)}");
     count--;
 }
